@@ -1,0 +1,141 @@
+*{
+margin: 0%;
+padding: 0%;
+font-family: 'Open Sans';
+}
+
+/*     ///// TODA LA VENTANA /////      */
+body {
+    display: flex;
+    height: 100vh;
+}
+
+/*     ///// ZONA DE CHAT /////      */
+
+.zonachat {
+    display: flex;
+    flex: 0 0 78%; /* define ancho zona contacto */
+    flex-direction: column;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.zonachat img{
+    border-radius: 5%;
+    width: 25%;
+}
+
+.zonachat h1{
+    padding-top: 16px;
+    color: #1B1F21;
+    font-size: 3.5em;
+    font-family: 'Roboto';
+}
+
+.zonachat p{
+    max-width: 50%;
+    font-size: 19px;
+}
+
+
+/*     ///// MENU - CONTACTOS  /////     */
+
+.menu-contactos{
+    flex: 0 0 22%;  /* define ancho menu */
+    flex-direction: column;
+}
+
+/*     ///// MENU - ENCABEZADO  /////     */
+
+.encabezado{
+    padding: 4% 10% 4% 10%;
+    display: flex;
+    border-bottom: 1px solid #E8EBE4;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.user-foto-perfil{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+}
+
+.user-nombre{
+    padding-left: 10px;
+    font-size: 1em;
+}
+
+.user-estado{
+    padding-left: 10px;
+    font-size: .8em;
+    color: #BEC1BB;
+}
+
+.user-click{
+    color: #BEC1BB;
+}
+
+.user-click i{
+    padding-left: 5px;
+}
+
+/*     ///// MENU - NUEVO CHAT  /////     */
+
+.nuevo-chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.8em;
+    border-bottom: 1px solid #E8EBE4;
+}
+
+button{
+    background-color: #A491D2;
+    color: #fff;
+    border: 0;
+    font-size: 1em;
+    padding: 1em; 
+    width: 80%;
+}
+
+/*     ///// MENU - CONTACTOS CON SCROLL  /////     */
+
+menu{
+    border-right: 1px solid #E8EBE4;
+    overflow-y: auto;
+    height: 74.5vh;  /* define el tamano scroll contactos*/
+}
+
+
+.contactos{
+    display: flex;
+    padding: 5% 10% 5% 10%;
+    border-bottom: 1px solid #E8EBE4;
+    align-items: center;
+}
+
+.contacto-foto-perfil{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+ }
+
+ .contacto-nombre{
+    padding-left: 1em;
+    font-size: 1em;
+}
+
+.contacto-estado{
+    padding-left: 1em;
+    font-size: 1em;
+    color: #444749
+}
